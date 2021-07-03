@@ -1,22 +1,36 @@
-.login-card{
-    margin-top: 15px;
-    width: 350px;
-   margin-left: 35%;
-
-}
-.card-content{
-    margin-left: 25px;
-    margin-top: 30px;
+/* Login Form master container. */
+.loginFormContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
 }
 
-.dispNone{
+/* Container displaying login card. */
+.card {
+    padding: 3%;
+    width: 25%;
+}
+
+.card-content {
+    min-width: auto;
+}
+
+/* Styling for helper text for hiding it. */
+.hide {
     display: none;
 }
 
-.dispBlock{
+/* Showing helper text. */
+.show {
     display: block;
 }
 
-.red{
-color: red;
+/* Styling for helper text for showing it. */
+.red {
+    color:red;
+}
+
+/* For Username and Password form controls. */
+.form-control {
+    width: 100%;
 }

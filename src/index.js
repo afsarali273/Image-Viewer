@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Controller from "./Controller";
+import './common/Header.css';
+import Controller from './common/Controller';
 
 ReactDOM.render(
-    <span>
-       <Controller/>
-    </span>, 
+    <React.StrictMode>
+        <div>
+        <Controller />
+        </div>
+    </React.StrictMode>,
     document.getElementById('root')
 );
